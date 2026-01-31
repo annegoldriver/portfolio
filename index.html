@@ -29,14 +29,7 @@
             <div class="home-content">
                 <div class="text-1">Hello there, my name is</div>
                 <div class="text-2">Anne</div>
-                <div class="text-3">I'm <span class="typing"></span></div>
-                <script>
-                    var typed = new Typed(".typing", {
-                        strings: ["The Architect of Abstraction", "Clean Code Anne", "a Software Researcher"],
-                        typeSpeed: 100,
-                        backSpeed: 60,
-                        loop: true});
-                </script>  
+                <div class="text-3">I'm <span class="typing"></span></div> 
                 <a href="#contact">Project With Me</a>
             </div>
         </div>
@@ -50,7 +43,7 @@
                     <img src="images/wallpaper.jpg" alt="Anne Goldriver Workspace">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Anne. <span class="typing-2">The Architect of Abstraction.</span></div>
+                    <div class="text">I'm Anne. <span class="typing-2"></span></div>
                     <p>
                         I am a <strong>System Architect and Software Researcher</strong> specializing in the intersection of computational logic and complex signal environments. My work is defined by a 30-year expertise in <strong>high-level signal processing</strong> and <strong>integration</strong>.
                         <br><br>
@@ -177,5 +170,20 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["The Architect of Abstraction", "Clean Code Anne", "a Software Researcher"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+  
+        var typed2 = new Typed(".typing-2", {
+            strings: ["The Architect of Abstraction", "a Problem Solver", "a Systems Designer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
 </body>
 </html>
