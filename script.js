@@ -31,13 +31,13 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["SWE Student", "Frontend Developer", "Programmer", "Designer", "Enthusiastic Dev"],
+        strings: ["The Architect of Abstraction", "Clean Code Anne", "a Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["SWE Student", "Frontend Developer", "Programmer", "Designer", "Enthusiastic Dev"],
+        strings: ["The Architect of Abstraction", "a Systems Architect", "a Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
