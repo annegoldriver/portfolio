@@ -29,7 +29,14 @@
             <div class="home-content">
                 <div class="text-1">Hello there, my name is</div>
                 <div class="text-2">Anne</div>
-                <div class="text-3">The Architect of Abstraction</div>
+                <div class="text-3">I'm <span class="typing"></span></div>
+                <script>
+                    var typed = new Typed(".typing", {
+                        strings: ["The Architect of Abstraction", "Clean Code Anne", "a Software Researcher"],
+                        typeSpeed: 100,
+                        backSpeed: 60,
+                        loop: true});
+                </script>  
                 <a href="#contact">Project With Me</a>
             </div>
         </div>
@@ -104,7 +111,7 @@
             <h2 class="title">Technical Mastery</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">The Discipline of Clean Code.</div>
+                    <div class="text">>The Philosophy of Clean Code Anne.</div>
                     <p>My skill set is built on a foundation of <strong>clean, testable, and efficient code</strong>, approaching every project with orchestral rigor.</p>
                 </div>
                 <div class="column right">
