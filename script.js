@@ -31,7 +31,10 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed1 = new Typed(".typing", {
-        strings: ["The Architect of Abstraction", "AI/ML Researcher", "a Software Engineer"],
+        strings: ["an AI/ML Developer", 
+            "a System Architect", 
+            "a Data Analyst",
+            "The Architect of Abstraction"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
