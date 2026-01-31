@@ -30,13 +30,13 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     // typing text animation script
-    var typed = new Typed(".typing", {
+    var typed1 = new Typed(".typing", {
         strings: ["The Architect of Abstraction", "AI/ML Researcher", "a Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-    var typed = new Typed(".typing-2", {
+    var typed2 = new Typed(".typing-2", {
         strings: ["The Architect of Abstraction", "a Systems Architect", "a Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
